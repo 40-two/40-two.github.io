@@ -19,8 +19,31 @@ body, html {
 }
 
 .content {
-  border: 1px dotted red;
   flex: 1;
   min-width: 50%;
   min-height: 50%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.content:hover {
+  transform: scale(2.5);
+  transition: all 0.5s ease;
+}
+
+.one {
+  background-color: red;
+}
+
+.two {
+  background-color: blue;
+}
+
+.three {
+  background-color: green;
+}
+
+.four {
+  background-color: orange;
 }

@@ -29,20 +29,14 @@ body, html {
   border-radius: 10px;
 }
 
-.content:hover {
+.two:hover {
+  background-image: url("../images/black.png");
   transform: scale(1.6);
   transition: all 1s ease;
+}
+
+.three:hover {
   background-image: url("../images/black.png");
-}
-
-.one {
-}
-
-.two {
-}
-
-.three {
-}
-
-.four {
+  transform: scale(1.6);
+  transition: all 1s ease;
 }

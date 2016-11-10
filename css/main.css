@@ -16,34 +16,33 @@ body, html {
   width: 100vw;
   overflow: hidden;
   flex-wrap: wrap;
+  background-image: url("../images/planets.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .content {
   flex: 1;
   min-width: 50%;
   min-height: 50%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  border: 5px solid white;
 }
 
 .content:hover {
   transform: scale(2.5);
   transition: all 0.5s ease;
+  background-color: white;
 }
 
 .one {
-  background-color: red;
 }
 
 .two {
-  background-color: blue;
 }
 
 .three {
-  background-color: green;
 }
 
 .four {
-  background-color: orange;
 }

@@ -17,6 +17,7 @@ body, html {
   overflow: hidden;
   flex-wrap: wrap;
   background-image: url("../images/planets-2.jpg");
+  background-attachment: fixed;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -24,25 +25,30 @@ body, html {
 
 .content {
   flex: 1;
-  min-width: 25%;
-  min-height: 100%;
-  max-height: 100%;
+  min-width: 25vw;
+  min-height: 50vh;
+  height: 50vh;
   color: #fff;
-  font-family: 'Anton', sans-serif;
-  padding: 30vh 0 0 10vw;
-  opacity: 0.5;
+  font-family: 'Cherry Cream Soda', cursive;
+  padding-top: 30vh;
+  text-align: center;
+  opacity: 0;
 }
 
-.two:hover {
+.content:hover {
   background-image: url("../images/black.png");
-  transform: scale(2);
+  height: 100vh;
+  width: 50vw;
   transition: all 1s ease;
   opacity: 1;
 }
 
-.three:hover {
-  background-image: url("../images/black.png");
-  transform: scale(2);
-  transition: all 1s ease;
-  opacity: 1;
+.button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border: 2px solid #fff;
+  border-radius: 20px;
+  height: 40px;
+  width: 200px;
 }

@@ -26,13 +26,14 @@ body, html {
 .content {
   flex: 1;
   min-width: 25vw;
+  width: 25vw;
   min-height: 50vh;
   height: 50vh;
   color: #fff;
   font-family: 'Cherry Cream Soda', cursive;
-  padding-top: 30vh;
+  padding-top: 2vh;
   text-align: center;
-  opacity: 0;
+  /*opacity: 0;*/
 }
 
 .content:hover {

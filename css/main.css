@@ -26,17 +26,23 @@ body, html {
   flex: 1;
   min-width: 25%;
   min-height: 100%;
-  border-radius: 10px;
+  max-height: 100%;
+  color: #fff;
+  font-family: 'Anton', sans-serif;
+  padding: 30vh 0 0 10vw;
+  opacity: 0.5;
 }
 
 .two:hover {
   background-image: url("../images/black.png");
-  transform: scale(1.6);
+  transform: scale(2);
   transition: all 1s ease;
+  opacity: 1;
 }
 
 .three:hover {
   background-image: url("../images/black.png");
-  transform: scale(1.6);
+  transform: scale(2);
   transition: all 1s ease;
+  opacity: 1;
 }

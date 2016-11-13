@@ -25,19 +25,20 @@ body, html {
 
 .content {
   flex: 1;
-  min-width: 25vw;
-  width: 25vw;
+  min-width: 50vw;
+  width: 50vw;
   min-height: 15vh;
-  height: 15vh;
+  height: 50vh;
   color: #fff;
   font-family: 'Cherry Cream Soda', cursive;
   padding-top: 2vh;
   text-align: center;
   background-image: url("../images/black.png");
+  opacity: 0.1;
 }
 
 .content:hover {
-  height: 100vh;
+  height: 50vh;
   width: 50vw;
   transition: all 1s ease;
   opacity: 1;
